@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F8EB2F1775EF23009EA00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB2E1775EF23009EA00D /* UIKit.framework */; };
+		18F8EB311775EF23009EA00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB301775EF23009EA00D /* Foundation.framework */; };
+		18F8EB331775EF23009EA00D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB321775EF23009EA00D /* CoreGraphics.framework */; };
+		18F8EB391775EF23009EA00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB371775EF23009EA00D /* InfoPlist.strings */; };
+		18F8EB3B1775EF23009EA00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB3A1775EF23009EA00D /* main.m */; };
+		18F8EB3F1775EF23009EA00D /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB3E1775EF23009EA00D /* MPAppDelegate.m */; };
+		18F8EB411775EF23009EA00D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB401775EF23009EA00D /* Default.png */; };
+		18F8EB431775EF23009EA00D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB421775EF23009EA00D /* Default@2x.png */; };
+		18F8EB451775EF23009EA00D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB441775EF23009EA00D /* Default-568h@2x.png */; };
+		18F8EB481775EF23009EA00D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB461775EF23009EA00D /* MainStoryboard_iPhone.storyboard */; };
+		18F8EB4B1775EF23009EA00D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB491775EF23009EA00D /* MainStoryboard_iPad.storyboard */; };
+		18F8EB4E1775EF23009EA00D /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB4D1775EF23009EA00D /* MPViewController.m */; };
+		18F8EB561775EF23009EA00D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB551775EF23009EA00D /* SenTestingKit.framework */; };
+		18F8EB571775EF23009EA00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB2E1775EF23009EA00D /* UIKit.framework */; };
+		18F8EB581775EF23009EA00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB301775EF23009EA00D /* Foundation.framework */; };
+		18F8EB601775EF23009EA00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB5E1775EF23009EA00D /* InfoPlist.strings */; };
+		18F8EB631775EF23009EA00D /* memoPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB621775EF23009EA00D /* memoPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F8EB591775EF23009EA00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F8EB231775EF23009EA00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F8EB2A1775EF23009EA00D;
+			remoteInfo = memoPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F8EB2B1775EF23009EA00D /* memoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F8EB2E1775EF23009EA00D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18F8EB301775EF23009EA00D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18F8EB321775EF23009EA00D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18F8EB361775EF23009EA00D /* memoPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "memoPad-Info.plist"; sourceTree = "<group>"; };
+		18F8EB381775EF23009EA00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18F8EB3A1775EF23009EA00D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F8EB3C1775EF23009EA00D /* memoPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "memoPad-Prefix.pch"; sourceTree = "<group>"; };
+		18F8EB3D1775EF23009EA00D /* MPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAppDelegate.h; sourceTree = "<group>"; };
+		18F8EB3E1775EF23009EA00D /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
+		18F8EB401775EF23009EA00D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18F8EB421775EF23009EA00D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18F8EB441775EF23009EA00D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18F8EB471775EF23009EA00D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		18F8EB4A1775EF23009EA00D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		18F8EB4C1775EF23009EA00D /* MPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
+		18F8EB4D1775EF23009EA00D /* MPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
+		18F8EB541775EF23009EA00D /* memoPadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoPadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F8EB551775EF23009EA00D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		18F8EB5D1775EF23009EA00D /* memoPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "memoPadTests-Info.plist"; sourceTree = "<group>"; };
+		18F8EB5F1775EF23009EA00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18F8EB611775EF23009EA00D /* memoPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memoPadTests.h; sourceTree = "<group>"; };
+		18F8EB621775EF23009EA00D /* memoPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoPadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F8EB281775EF23009EA00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8EB2F1775EF23009EA00D /* UIKit.framework in Frameworks */,
+				18F8EB311775EF23009EA00D /* Foundation.framework in Frameworks */,
+				18F8EB331775EF23009EA00D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8EB501775EF23009EA00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8EB561775EF23009EA00D /* SenTestingKit.framework in Frameworks */,
+				18F8EB571775EF23009EA00D /* UIKit.framework in Frameworks */,
+				18F8EB581775EF23009EA00D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F8EB221775EF23009EA00D = {
+			isa = PBXGroup;
+			children = (
+				18F8EB341775EF23009EA00D /* memoPad */,
+				18F8EB5B1775EF23009EA00D /* memoPadTests */,
+				18F8EB2D1775EF23009EA00D /* Frameworks */,
+				18F8EB2C1775EF23009EA00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F8EB2C1775EF23009EA00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F8EB2B1775EF23009EA00D /* memoPad.app */,
+				18F8EB541775EF23009EA00D /* memoPadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F8EB2D1775EF23009EA00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18F8EB2E1775EF23009EA00D /* UIKit.framework */,
+				18F8EB301775EF23009EA00D /* Foundation.framework */,
+				18F8EB321775EF23009EA00D /* CoreGraphics.framework */,
+				18F8EB551775EF23009EA00D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18F8EB341775EF23009EA00D /* memoPad */ = {
+			isa = PBXGroup;
+			children = (
+				18F8EB3D1775EF23009EA00D /* MPAppDelegate.h */,
+				18F8EB3E1775EF23009EA00D /* MPAppDelegate.m */,
+				18F8EB461775EF23009EA00D /* MainStoryboard_iPhone.storyboard */,
+				18F8EB491775EF23009EA00D /* MainStoryboard_iPad.storyboard */,
+				18F8EB4C1775EF23009EA00D /* MPViewController.h */,
+				18F8EB4D1775EF23009EA00D /* MPViewController.m */,
+				18F8EB351775EF23009EA00D /* Supporting Files */,
+			);
+			path = memoPad;
+			sourceTree = "<group>";
+		};
+		18F8EB351775EF23009EA00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F8EB361775EF23009EA00D /* memoPad-Info.plist */,
+				18F8EB371775EF23009EA00D /* InfoPlist.strings */,
+				18F8EB3A1775EF23009EA00D /* main.m */,
+				18F8EB3C1775EF23009EA00D /* memoPad-Prefix.pch */,
+				18F8EB401775EF23009EA00D /* Default.png */,
+				18F8EB421775EF23009EA00D /* Default@2x.png */,
+				18F8EB441775EF23009EA00D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F8EB5B1775EF23009EA00D /* memoPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F8EB611775EF23009EA00D /* memoPadTests.h */,
+				18F8EB621775EF23009EA00D /* memoPadTests.m */,
+				18F8EB5C1775EF23009EA00D /* Supporting Files */,
+			);
+			path = memoPadTests;
+			sourceTree = "<group>";
+		};
+		18F8EB5C1775EF23009EA00D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F8EB5D1775EF23009EA00D /* memoPadTests-Info.plist */,
+				18F8EB5E1775EF23009EA00D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F8EB2A1775EF23009EA00D /* memoPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F8EB661775EF23009EA00D /* Build configuration list for PBXNativeTarget "memoPad" */;
+			buildPhases = (
+				18F8EB271775EF23009EA00D /* Sources */,
+				18F8EB281775EF23009EA00D /* Frameworks */,
+				18F8EB291775EF23009EA00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memoPad;
+			productName = memoPad;
+			productReference = 18F8EB2B1775EF23009EA00D /* memoPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F8EB531775EF23009EA00D /* memoPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F8EB691775EF23009EA00D /* Build configuration list for PBXNativeTarget "memoPadTests" */;
+			buildPhases = (
+				18F8EB4F1775EF23009EA00D /* Sources */,
+				18F8EB501775EF23009EA00D /* Frameworks */,
+				18F8EB511775EF23009EA00D /* Resources */,
+				18F8EB521775EF23009EA00D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F8EB5A1775EF23009EA00D /* PBXTargetDependency */,
+			);
+			name = memoPadTests;
+			productName = memoPadTests;
+			productReference = 18F8EB541775EF23009EA00D /* memoPadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F8EB231775EF23009EA00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Toru Furuya";
+			};
+			buildConfigurationList = 18F8EB261775EF23009EA00D /* Build configuration list for PBXProject "memoPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18F8EB221775EF23009EA00D;
+			productRefGroup = 18F8EB2C1775EF23009EA00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F8EB2A1775EF23009EA00D /* memoPad */,
+				18F8EB531775EF23009EA00D /* memoPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F8EB291775EF23009EA00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8EB391775EF23009EA00D /* InfoPlist.strings in Resources */,
+				18F8EB411775EF23009EA00D /* Default.png in Resources */,
+				18F8EB431775EF23009EA00D /* Default@2x.png in Resources */,
+				18F8EB451775EF23009EA00D /* Default-568h@2x.png in Resources */,
+				18F8EB481775EF23009EA00D /* MainStoryboard_iPhone.storyboard in Resources */,
+				18F8EB4B1775EF23009EA00D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8EB511775EF23009EA00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8EB601775EF23009EA00D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18F8EB521775EF23009EA00D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F8EB271775EF23009EA00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8EB3B1775EF23009EA00D /* main.m in Sources */,
+				18F8EB3F1775EF23009EA00D /* MPAppDelegate.m in Sources */,
+				18F8EB4E1775EF23009EA00D /* MPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8EB4F1775EF23009EA00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8EB631775EF23009EA00D /* memoPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F8EB5A1775EF23009EA00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F8EB2A1775EF23009EA00D /* memoPad */;
+			targetProxy = 18F8EB591775EF23009EA00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F8EB371775EF23009EA00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F8EB381775EF23009EA00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18F8EB461775EF23009EA00D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F8EB471775EF23009EA00D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		18F8EB491775EF23009EA00D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F8EB4A1775EF23009EA00D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		18F8EB5E1775EF23009EA00D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F8EB5F1775EF23009EA00D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F8EB641775EF23009EA00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F8EB651775EF23009EA00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F8EB671775EF23009EA00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "memoPad/memoPad-Prefix.pch";
+				INFOPLIST_FILE = "memoPad/memoPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18F8EB681775EF23009EA00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "memoPad/memoPad-Prefix.pch";
+				INFOPLIST_FILE = "memoPad/memoPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18F8EB6A1775EF23009EA00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/memoPad.app/memoPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "memoPad/memoPad-Prefix.pch";
+				INFOPLIST_FILE = "memoPadTests/memoPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		18F8EB6B1775EF23009EA00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/memoPad.app/memoPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "memoPad/memoPad-Prefix.pch";
+				INFOPLIST_FILE = "memoPadTests/memoPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F8EB261775EF23009EA00D /* Build configuration list for PBXProject "memoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8EB641775EF23009EA00D /* Debug */,
+				18F8EB651775EF23009EA00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F8EB661775EF23009EA00D /* Build configuration list for PBXNativeTarget "memoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8EB671775EF23009EA00D /* Debug */,
+				18F8EB681775EF23009EA00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F8EB691775EF23009EA00D /* Build configuration list for PBXNativeTarget "memoPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8EB6A1775EF23009EA00D /* Debug */,
+				18F8EB6B1775EF23009EA00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F8EB231775EF23009EA00D /* Project object */;
+}
