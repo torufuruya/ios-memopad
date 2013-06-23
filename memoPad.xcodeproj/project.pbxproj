@@ -17,13 +17,15 @@
 		18F8EB431775EF23009EA00D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB421775EF23009EA00D /* Default@2x.png */; };
 		18F8EB451775EF23009EA00D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB441775EF23009EA00D /* Default-568h@2x.png */; };
 		18F8EB481775EF23009EA00D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB461775EF23009EA00D /* MainStoryboard_iPhone.storyboard */; };
-		18F8EB4B1775EF23009EA00D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB491775EF23009EA00D /* MainStoryboard_iPad.storyboard */; };
 		18F8EB4E1775EF23009EA00D /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB4D1775EF23009EA00D /* MPViewController.m */; };
 		18F8EB561775EF23009EA00D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB551775EF23009EA00D /* SenTestingKit.framework */; };
 		18F8EB571775EF23009EA00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB2E1775EF23009EA00D /* UIKit.framework */; };
 		18F8EB581775EF23009EA00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F8EB301775EF23009EA00D /* Foundation.framework */; };
 		18F8EB601775EF23009EA00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F8EB5E1775EF23009EA00D /* InfoPlist.strings */; };
 		18F8EB631775EF23009EA00D /* memoPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB621775EF23009EA00D /* memoPadTests.m */; };
+		18F8EB74177601CC009EA00D /* MPMemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB73177601CC009EA00D /* MPMemoListViewController.m */; };
+		18F8EB791776048E009EA00D /* MPMemoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB781776048E009EA00D /* MPMemoList.m */; };
+		18F8EB7C177608EB009EA00D /* MPMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8EB7B177608EB009EA00D /* MPMemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +53,6 @@
 		18F8EB421775EF23009EA00D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		18F8EB441775EF23009EA00D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		18F8EB471775EF23009EA00D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		18F8EB4A1775EF23009EA00D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		18F8EB4C1775EF23009EA00D /* MPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
 		18F8EB4D1775EF23009EA00D /* MPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
 		18F8EB541775EF23009EA00D /* memoPadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoPadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +61,12 @@
 		18F8EB5F1775EF23009EA00D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18F8EB611775EF23009EA00D /* memoPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memoPadTests.h; sourceTree = "<group>"; };
 		18F8EB621775EF23009EA00D /* memoPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = memoPadTests.m; sourceTree = "<group>"; };
+		18F8EB72177601CC009EA00D /* MPMemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMemoListViewController.h; sourceTree = "<group>"; };
+		18F8EB73177601CC009EA00D /* MPMemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMemoListViewController.m; sourceTree = "<group>"; };
+		18F8EB771776048E009EA00D /* MPMemoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMemoList.h; sourceTree = "<group>"; };
+		18F8EB781776048E009EA00D /* MPMemoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMemoList.m; sourceTree = "<group>"; };
+		18F8EB7A177608EB009EA00D /* MPMemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMemo.h; sourceTree = "<group>"; };
+		18F8EB7B177608EB009EA00D /* MPMemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +129,12 @@
 				18F8EB3D1775EF23009EA00D /* MPAppDelegate.h */,
 				18F8EB3E1775EF23009EA00D /* MPAppDelegate.m */,
 				18F8EB461775EF23009EA00D /* MainStoryboard_iPhone.storyboard */,
-				18F8EB491775EF23009EA00D /* MainStoryboard_iPad.storyboard */,
+				18F8EB72177601CC009EA00D /* MPMemoListViewController.h */,
+				18F8EB771776048E009EA00D /* MPMemoList.h */,
+				18F8EB7A177608EB009EA00D /* MPMemo.h */,
+				18F8EB7B177608EB009EA00D /* MPMemo.m */,
+				18F8EB781776048E009EA00D /* MPMemoList.m */,
+				18F8EB73177601CC009EA00D /* MPMemoListViewController.m */,
 				18F8EB4C1775EF23009EA00D /* MPViewController.h */,
 				18F8EB4D1775EF23009EA00D /* MPViewController.m */,
 				18F8EB351775EF23009EA00D /* Supporting Files */,
@@ -240,7 +252,6 @@
 				18F8EB431775EF23009EA00D /* Default@2x.png in Resources */,
 				18F8EB451775EF23009EA00D /* Default-568h@2x.png in Resources */,
 				18F8EB481775EF23009EA00D /* MainStoryboard_iPhone.storyboard in Resources */,
-				18F8EB4B1775EF23009EA00D /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +289,9 @@
 				18F8EB3B1775EF23009EA00D /* main.m in Sources */,
 				18F8EB3F1775EF23009EA00D /* MPAppDelegate.m in Sources */,
 				18F8EB4E1775EF23009EA00D /* MPViewController.m in Sources */,
+				18F8EB74177601CC009EA00D /* MPMemoListViewController.m in Sources */,
+				18F8EB791776048E009EA00D /* MPMemoList.m in Sources */,
+				18F8EB7C177608EB009EA00D /* MPMemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +328,6 @@
 				18F8EB471775EF23009EA00D /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		18F8EB491775EF23009EA00D /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F8EB4A1775EF23009EA00D /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		18F8EB5E1775EF23009EA00D /* InfoPlist.strings */ = {

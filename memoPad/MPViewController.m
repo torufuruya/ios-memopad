@@ -7,9 +7,11 @@
 //
 
 #import "MPViewController.h"
+#import "MPMemoList.h"
+#import "MPMemo.h"
 
 @interface MPViewController ()
-
+@property (weak, nonatomic) IBOutlet UITextField *memotext;
 @end
 
 @implementation MPViewController
@@ -24,6 +26,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)createMemo:(id)sender {
+    MPMemo *memo = [[MPMemo alloc] init];
+    memo.title = self.memotext.text;
+    
+    [[[MPMemoList sharedMemoList] memos] addObject:memo];
 }
 
 @end
